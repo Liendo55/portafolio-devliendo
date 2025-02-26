@@ -1,46 +1,21 @@
 <div class="experience-section">
-  <h2>💼 Experiencia Laboral</h2>
+  <h2>{{ "experience.title" | translate }}</h2>
 
   <div class="timeline">
+    @for (experience of ('experience.list-experience' | translate); track
+    $index) {
     <div class="timeline-item">
       <div class="timeline-content">
-        <div class="timeline-title">Desarrollador Web (Angular Semi Sr)</div>
+        <div class="timeline-title">{{ experience.title }}</div>
         <div class="timeline-subtitle">
-          Lumston<br />Marzo 2023 - ACTUALIDAD
+          {{ experience.company }}<br />
+          {{ experience.date }}
         </div>
         <div class="timeline-description">
-          Desarrollo de aplicaciones web con Angular y TypeScript, utilizando
-          metodologías agiles para el desarrollo de software. Implementación de
-          soluciones innovadoras y eficientes para satisfacer las necesidades de
-          los clientes. Trabajo en equipo para asegurar la entrega del producto.
+          {{ experience.description }}
         </div>
       </div>
     </div>
-    <div class="timeline-item">
-      <div class="timeline-content">
-        <div class="timeline-title">Desarrollador Web (Angular)</div>
-        <div class="timeline-subtitle">
-          SoliduSystem<br />Ene 2020 - MAR 2023
-        </div>
-        <div class="timeline-description">
-          Desarrollo de aplicaciones web con Angular y TypeScript.
-          Implementación de apis para facturación, timbres y control de acceso.
-          Trabajo en equipo para asegurar la entrega del producto.
-        </div>
-      </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-content">
-        <div class="timeline-title">Full Stack</div>
-        <div class="timeline-subtitle">
-          SoliduSystem<br />Ene 2019 - Dic 2019
-        </div>
-        <div class="timeline-description">
-          Desarrollo de aplicacacion web con las tecnoloigias laravel, boostrap,
-          vue.js, php y mysql. El proposito principal era crear una aplicacion
-          web para la gestion de inventario.
-        </div>
-      </div>
-    </div>
+    }
   </div>
 </div>

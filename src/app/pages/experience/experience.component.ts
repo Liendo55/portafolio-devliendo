@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-experience',
-  imports: [],
+  imports: [TranslatePipe],
   templateUrl: './experience.component.html',
-  styleUrl: './experience.component.css'
+  styleUrl: './experience.component.css',
 })
-export class ExperienceComponent {
-
-}
+export class ExperienceComponent {}
