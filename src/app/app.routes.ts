@@ -5,4 +5,8 @@ export const routes: Routes = [
     path: '',
     loadComponent: () => import('./layout/nav-bar/nav-bar.component'),
   },
+  {
+    path: '**',
+    redirectTo: '/',
+  },
 ];
