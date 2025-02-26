@@ -13,10 +13,27 @@ nav {
   height: 80px;
 }
 
+nav .left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 nav .left a {
   color: var(--text-color);
   font-size: 22px;
   font-weight: 600;
+}
+
+nav .left button {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: none;
+  font-size: 22px;
+}
+
+.left button:hover {
+  cursor: pointer;
 }
 
 nav .right a {
