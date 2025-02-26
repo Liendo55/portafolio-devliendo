@@ -1,8 +1,11 @@
 <!-- NAVBAR -->
 <nav>
   <div class="left">
-    <a href="/">({{ this.language }}) {{ "name-nav" | translate }} </a>
+    <a href="/">{{ "name-nav" | translate }} </a>
+    <span class="fi {{ this.isEnglish ? 'fi-us' : 'fi-mx' }}"></span>
+  </div>
 
+  <div class="right">
     <button (click)="changeLanguage()">
       <i class="fa-solid fa-earth-americas"></i>
     </button>
@@ -10,57 +13,23 @@
       <i class="fa-solid fa-circle-half-stroke"></i>
     </button>
   </div>
-
-  <div class="right">
-    <!-- <a
-      href="https://github.com/Liendo55"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <i class="fa-brands fa-github"></i>
-      <span>Github</span>
-    </a> -->
-
-    <a
-      href="https://www.linkedin.com/in/jesus-manuel-liendo-palafox-62694425a/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <i class="fa-brands fa-linkedin"></i>
-      <span>Linkedin</span>
-    </a>
-
-    <a href="mailto:jesusliendo55@gmail.com">
-      <i class="fa-solid fa-envelope"></i>
-      <span>Email</span>
-    </a>
-  </div>
 </nav>
 
 <main>
-  <!-- SECTION 1: Hero -->
+  <!-- Abuto Me -->
   <section>
     <app-about-me />
   </section>
 
-  <!-- SECTION 2: Skills -->
+  <!-- Skills -->
   <section id="skills">
     <app-skill />
   </section>
 
+  <!-- Experience -->
   <section id="experience">
     <app-experience />
   </section>
-
-  <!-- SECTION 3: Testimony -->
-  <!-- <section id="testimony">
-    <app-testimony />
-  </section> -->
-
-  <!-- SECTION 4: Contact -->
-  <!-- <section id="contact">
-    <app-contact />
-  </section> -->
 </main>
 
 <app-footer />
