@@ -1,0 +1,90 @@
+{
+  "name-nav": "Jesus Liendo",
+  "about-me": {
+    "name": "Hi, I´m Jesús Manuel",
+    "last-name": "Liendo Palafox",
+    "description": "I am a web developer with experience in the development of web and mobile applications (Responsive). My main focus is creating intuitive and functional solutions that meet users' needs. I have over 6 years of experience in web application development using technologies such as HTML, CSS, JavaScript, TypeScript, Angular, among others."
+  },
+  "skills": {
+    "title": "🧑‍💻 Skills",
+    "description": "These are the technologies I have experience with in web and mobile development. I am currently learning the latest features of Angular 19 and Tailwind.",
+    "list-skills": [
+      {
+        "icon": "images/angular-logo.webp",
+        "name": "Angular",
+        "alt": "angular logo"
+      },
+      {
+        "icon": "images/typescript-logo.webp",
+        "name": "TypeScript",
+        "alt": "typescript logo"
+      },
+      {
+        "icon": "images/html-logo.webp",
+        "name": "HTML",
+        "alt": "html logo"
+      },
+      {
+        "icon": "images/css-logo.webp",
+        "name": "CSS",
+        "alt": "css logo"
+      },
+      {
+        "icon": "images/javascript-logo.webp",
+        "name": "JavaScript",
+        "alt": "javascript logo"
+      },
+      {
+        "icon": "images/php-logo.webp",
+        "name": "PHP",
+        "alt": "php logo"
+      },
+      {
+        "icon": "images/laravel-logo.webp",
+        "name": "Laravel",
+        "alt": "laravel logo"
+      },
+      {
+        "icon": "images/vue-logo.webp",
+        "name": "Vue.js",
+        "alt": "vue.js logo"
+      },
+      {
+        "icon": "images/github-logo.webp",
+        "name": "GitHub",
+        "alt": "github logo"
+      },
+      {
+        "icon": "images/tailwind-logo.webp",
+        "name": "Tailwind",
+        "alt": "tailwind logo"
+      }
+    ]
+  },
+  "experience": {
+    "title": "💼 Work Experience",
+    "list-experience": [
+      {
+        "title": "Web Developer (Angular Semi Sr)",
+        "company": "Lumston",
+        "date": "Marzo 2023 - ACTUALIDAD",
+        "description": "Development of web applications with Angular and TypeScript, using agile methodologies for software development. Implementation of innovative and efficient solutions to meet clients' needs. Teamwork to ensure product delivery."
+      },
+      {
+        "title": "Web Developer (Angular Semi Sr)",
+        "company": "SoliduSystems",
+        "date": "Ene 2020 - MAR 2023",
+        "description": "Development of web applications with Angular and TypeScript. Implementation of APIs for billing, stamps, and access control. Teamwork to ensure product delivery."
+      },
+      {
+        "title": "Full Stack",
+        "company": "SoliduSystems",
+        "date": "Ene 2019 - Dic 2019",
+        "description": "Development of a web application with the technologies Laravel, Bootstrap, Vue.js, PHP, and MySQL. The main purpose was to create a web application for inventory management."
+      }
+    ]
+  },
+  "copyright": {
+    "text": "© Copyright 2025 DevLiendo | All Rights Reserved"
+  }
+}
