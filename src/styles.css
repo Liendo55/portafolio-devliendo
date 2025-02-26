@@ -3,6 +3,8 @@
   --link-color: #4a76ee;
   --background-color: #eeeff1;
   --border-color: rgb(152, 152, 152);
+  --btn-color: #0077b5;
+  --btn-color-text: #eeeff1;
 }
 
 [data-theme="dark"] {
@@ -10,6 +12,8 @@
   --text-color: #eeeff1;
   --link-color: #f31111;
   --border-color: rgb(255, 255, 255);
+  --btn-color: #46a758;
+  --btn-color-text: #eeeff1;
 }
 
 * {
