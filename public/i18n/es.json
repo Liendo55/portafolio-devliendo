@@ -3,7 +3,9 @@
   "about-me": {
     "name": "Hola, Soy Jesús Manuel",
     "last-name": "Liendo Palafox",
-    "description": "Soy un desarollador web con experiencia en el desarrollo de aplicaciones web y móviles(Responsive). Mi enfoque principal es la creación de soluciones intuitivas y funcionales que satisfacen las necesidades de los usuarios. Tengo mas de 6 años de experiencia en el desarrollo de aplicaciones web utilizando tecnologías como HTML, CSS, JavaScript, TypeScript, Angular entre otras."
+    "description": "Soy un desarollador web con experiencia en el desarrollo de aplicaciones web y móviles(Responsive). Mi enfoque principal es la creación de soluciones intuitivas y funcionales que satisfacen las necesidades de los usuarios. Tengo mas de 6 años de experiencia en el desarrollo de aplicaciones web utilizando tecnologías como HTML, CSS, JavaScript, TypeScript, Angular entre otras.",
+    "text-cv": "Descargar CV",
+    "text-email": "Correo"
   },
   "skills": {
     "title": "🧑‍💻 Tecnologías",

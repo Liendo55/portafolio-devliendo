@@ -3,7 +3,9 @@
   "about-me": {
     "name": "Hi, I´m Jesús Manuel",
     "last-name": "Liendo Palafox",
-    "description": "I am a web developer with experience in the development of web and mobile applications (Responsive). My main focus is creating intuitive and functional solutions that meet users' needs. I have over 6 years of experience in web application development using technologies such as HTML, CSS, JavaScript, TypeScript, Angular, among others."
+    "description": "I am a web developer with experience in the development of web and mobile applications (Responsive). My main focus is creating intuitive and functional solutions that meet users' needs. I have over 6 years of experience in web application development using technologies such as HTML, CSS, JavaScript, TypeScript, Angular, among others.",
+    "text-cv": "Download CV",
+    "text-email": "Email"
   },
   "skills": {
     "title": "🧑‍💻 Skills",
