@@ -14,44 +14,51 @@
   margin: auto;
   position: relative;
 }
+
 .timeline::before {
   content: "";
   position: absolute;
   left: 15px;
   width: 3px;
   height: 100%;
-  background: #000;
+  background: var(--text-color);
 }
+
 .timeline-item {
   display: flex;
   align-items: flex-start;
   margin-bottom: 20px;
   position: relative;
 }
+
 .timeline-item::before {
   content: "";
   width: 12px;
   height: 12px;
-  background: #000;
+  background-color: var(--text-color);
   border-radius: 50%;
   position: absolute;
   left: 10px;
   top: 5px;
 }
+
 .timeline-content {
   margin-left: 30px;
-  background: white;
+  background-color: var(--background-color);
   padding: 10px;
   border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px var(--border-color);
 }
+
 .timeline-title {
   font-weight: bold;
 }
+
 .timeline-subtitle {
   color: gray;
   font-size: 14px;
 }
+
 .timeline-description {
   font-size: 14px;
   margin-top: 5px;
