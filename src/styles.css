@@ -2,6 +2,14 @@
   --text-color: #1a1c20;
   --link-color: #4a76ee;
   --background-color: #eeeff1;
+  --border-color: rgb(152, 152, 152);
+}
+
+[data-theme="dark"] {
+  --background-color: #1a1c20;
+  --text-color: #eeeff1;
+  --link-color: #f31111;
+  --border-color: rgb(255, 255, 255);
 }
 
 * {
@@ -98,6 +106,24 @@ body {
 
   /* SECTION 4: Contact */
   .contact-section {
+    padding: 0 20px;
+  }
+
+  /* SECTION Experience */
+  .timeline-content {
+    padding: 8px;
+  }
+
+  .timeline::before {
+    left: 10px;
+  }
+
+  .timeline-item::before {
+    left: 5px;
+  }
+
+  /* SECTION Footer */
+  .footer {
     padding: 0 20px;
   }
 }
