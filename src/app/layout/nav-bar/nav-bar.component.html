@@ -1,10 +1,14 @@
 <!-- NAVBAR -->
 <nav>
   <div class="left">
-    <a href="/">Jesús Liendo</a>
+    <a href="/">({{ this.language }}) {{ "name-nav" | translate }} </a>
 
-    <!-- <button>idioma</button>
-    <button>dark mode</button> -->
+    <button (click)="changeLanguage()">
+      <i class="fa-solid fa-earth-americas"></i>
+    </button>
+    <button (click)="changeTheme()">
+      <i class="fa-solid fa-circle-half-stroke"></i>
+    </button>
   </div>
 
   <div class="right">
@@ -42,6 +46,10 @@
   <!-- SECTION 2: Skills -->
   <section id="skills">
     <app-skill />
+  </section>
+
+  <section id="experience">
+    <app-experience />
   </section>
 
   <!-- SECTION 3: Testimony -->
