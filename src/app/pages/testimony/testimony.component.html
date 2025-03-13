@@ -1,20 +1,25 @@
 <div class="testimony-section">
-  <h2>Testimony</h2>
-
-  <div class="group">
-    <div class="person-details">
-      <img src="images/testimony-headshot.webp" />
-      <p>John Doe</p>
-      <p>Lorem ipsum dolor sit.</p>
-    </div>
-
-    <div class="text">
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, sint
-      repudiandae ratione exercitationem saepe distinctio cumque quaerat nostrum
-      laborum? Rem adipisci natus eos nemo reprehenderit, cumque nostrum enim
-      commodi. Eum, enim vero eveniet doloremque sed veniam. Doloremque
-      explicabo non reprehenderit expedita! Accusamus mollitia repellendus
-      dolorum officiis libero quod deleniti cum."
+  <h2>{{ "testimonials.title" | translate }}</h2>
+  <div class="carousel-container">
+    <div class="carousel">
+      @for (testimony of ('testimonials.list-testimonials' | translate); track
+      $index) {
+      <div class="card">
+        <div class="person-details">
+          <img [src]="testimony.img" alt="{{ testimony.name }}" />
+          <p>
+            {{ testimony.name }}
+          </p>
+          <p>{{ testimony.company }}</p>
+          @for(redes of testimony.red_socials; track $index) {
+          <a href="{{ redes.url }}" target="_blank" rel="noopener noreferrer"
+            ><i class="fa-brands {{ redes.icon }}"></i
+          ></a>
+          }
+        </div>
+        <div class="text">"{{ testimony.message }}"</div>
+      </div>
+      }
     </div>
   </div>
 </div>
