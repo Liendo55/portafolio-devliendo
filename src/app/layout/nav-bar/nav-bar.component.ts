@@ -3,6 +3,7 @@ import { FooterComponent } from '../footer/footer.component';
 import { SkillComponent } from '../../pages/skill/skill.component';
 import { AboutMeComponent } from '../../pages/about-me/about-me.component';
 import { ExperienceComponent } from '../../pages/experience/experience.component';
+import { TestimonyComponent } from '../../pages/testimony/testimony.component';
 import { ThemeService } from '../../services/theme.service';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 import translateEs from '../../../../public/i18n/es.json';
@@ -15,6 +16,7 @@ import translateEn from '../../../../public/i18n/en.json';
     SkillComponent,
     AboutMeComponent,
     ExperienceComponent,
+    TestimonyComponent,
     TranslatePipe,
   ],
   templateUrl: './nav-bar.component.html',
