@@ -1,7 +1,7 @@
 {
   "name-nav": "Jesus Liendo",
   "about-me": {
-    "name": "Hi, I´m Jesús Manuel",
+    "name": "Hi, I´m Jesus Manuel",
     "last-name": "Liendo Palafox",
     "description": "I am a web developer with experience in the development of web and mobile applications (Responsive). My main focus is creating intuitive and functional solutions that meet users' needs. I have over 6 years of experience in web application development using technologies such as HTML, CSS, JavaScript, TypeScript, Angular, among others.",
     "text-cv": "Download CV",
@@ -12,52 +12,52 @@
     "description": "These are the technologies I have experience with in web and mobile development. I am currently learning the latest features of Angular 19 and Tailwind.",
     "list-skills": [
       {
-        "icon": "images/angular-logo.webp",
+        "icon": "images/skills/angular-logo.webp",
         "name": "Angular",
         "alt": "angular logo"
       },
       {
-        "icon": "images/typescript-logo.webp",
+        "icon": "images/skills/typescript-logo.webp",
         "name": "TypeScript",
         "alt": "typescript logo"
       },
       {
-        "icon": "images/html-logo.webp",
+        "icon": "images/skills/html-logo.webp",
         "name": "HTML",
         "alt": "html logo"
       },
       {
-        "icon": "images/css-logo.webp",
+        "icon": "images/skills/css-logo.webp",
         "name": "CSS",
         "alt": "css logo"
       },
       {
-        "icon": "images/javascript-logo.webp",
+        "icon": "images/skills/javascript-logo.webp",
         "name": "JavaScript",
         "alt": "javascript logo"
       },
       {
-        "icon": "images/php-logo.webp",
+        "icon": "images/skills/php-logo.webp",
         "name": "PHP",
         "alt": "php logo"
       },
       {
-        "icon": "images/laravel-logo.webp",
+        "icon": "images/skills/laravel-logo.webp",
         "name": "Laravel",
         "alt": "laravel logo"
       },
       {
-        "icon": "images/vue-logo.webp",
+        "icon": "images/skills/vue-logo.webp",
         "name": "Vue.js",
         "alt": "vue.js logo"
       },
       {
-        "icon": "images/github-logo.webp",
+        "icon": "images/skills/github-logo.webp",
         "name": "GitHub",
         "alt": "github logo"
       },
       {
-        "icon": "images/tailwind-logo.webp",
+        "icon": "images/skills/tailwind-logo.webp",
         "name": "Tailwind",
         "alt": "tailwind logo"
       }
@@ -83,6 +83,59 @@
         "company": "SoliduSystems",
         "date": "Ene 2019 - Dic 2019",
         "description": "Development of a web application with the technologies Laravel, Bootstrap, Vue.js, PHP, and MySQL. The main purpose was to create a web application for inventory management."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "👨‍💼 Testimonios",
+    "list-testimonials": [
+      {
+        "name": "✨ Pepe Flores ✨",
+        "img": "images/testimonials/joseflores.webp",
+        "company": "🏢 Wizeline",
+        "message": "An outstanding team member, always willing to go the extra mile that projects require, with a positive and proactive attitude. In addition to being a great team player, he is technically prepared for any development.",
+        "red_socials": [
+          {
+            "icon": "fa-linkedin",
+            "url": "https://www.linkedin.com/in/pepeflores97/"
+          }
+        ]
+      },
+      {
+        "name": "✨ Marilú Romero ✨",
+        "img": "images/testimonials/mariluromero.webp",
+        "company": "🏢 Derevo S.A de C.V",
+        "message": "An excellent colleague and friend.",
+        "red_socials": [
+          {
+            "icon": "fa-linkedin",
+            "url": "https://www.linkedin.com/in/maril%C3%BA-romero-24113119b/"
+          }
+        ]
+      },
+      {
+        "name": "✨ Jesús Alberto Nava Ramírez",
+        "img": "images/testimonials/jesusnava.webp",
+        "company": "🏢 Lumston",
+        "message": "Manu is a great coworker. He takes on challenges and turns them into reality. He never stops learning. He always takes the initiative to achieve the goals.",
+        "red_socials": [
+          {
+            "icon": "fa-linkedin",
+            "url": "https://www.linkedin.com/in/jesus-alberto-nava-ramirez-4a1079121"
+          }
+        ]
+      },
+      {
+        "name": "✨ Rene Meza ✨",
+        "img": "images/testimonials/renemeza.webp",
+        "company": "🏢 Lumston",
+        "message": "I have worked for years with Jesus Liendo at Lumston, and I can say with confidence that he is a true professional. His dedication is evident in every stage of the work, and his attention to detail is simply impressive. Communication with him was always easy and effective. He genuinely cares about client satisfaction, and I wouldn’t hesitate to collaborate with him again in the future.",
+        "red_socials": [
+          {
+            "icon": "fa-linkedin",
+            "url": "https://www.linkedin.com/in/rene-alberto-meza-escamilla/"
+          }
+        ]
       }
     ]
   },

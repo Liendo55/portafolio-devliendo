@@ -12,52 +12,52 @@
     "description": "Estas son las tecnologías con las que tengo experiencia en el desarrollo web y móvil. Actualemente estoy aprendiendo lo nuevo de Angular 19 y Tailwind.",
     "list-skills": [
       {
-        "icon": "images/angular-logo.webp",
+        "icon": "images/skills/angular-logo.webp",
         "name": "Angular",
         "alt": "angular logo"
       },
       {
-        "icon": "images/typescript-logo.webp",
+        "icon": "images/skills/typescript-logo.webp",
         "name": "TypeScript",
         "alt": "typescript logo"
       },
       {
-        "icon": "images/html-logo.webp",
+        "icon": "images/skills/html-logo.webp",
         "name": "HTML",
         "alt": "html logo"
       },
       {
-        "icon": "images/css-logo.webp",
+        "icon": "images/skills/css-logo.webp",
         "name": "CSS",
         "alt": "css logo"
       },
       {
-        "icon": "images/javascript-logo.webp",
+        "icon": "images/skills/javascript-logo.webp",
         "name": "JavaScript",
         "alt": "javascript logo"
       },
       {
-        "icon": "images/php-logo.webp",
+        "icon": "images/skills/php-logo.webp",
         "name": "PHP",
         "alt": "php logo"
       },
       {
-        "icon": "images/laravel-logo.webp",
+        "icon": "images/skills/laravel-logo.webp",
         "name": "Laravel",
         "alt": "laravel logo"
       },
       {
-        "icon": "images/vue-logo.webp",
+        "icon": "images/skills/vue-logo.webp",
         "name": "Vue.js",
         "alt": "vue.js logo"
       },
       {
-        "icon": "images/github-logo.webp",
+        "icon": "images/skills/github-logo.webp",
         "name": "GitHub",
         "alt": "github logo"
       },
       {
-        "icon": "images/tailwind-logo.webp",
+        "icon": "images/skills/tailwind-logo.webp",
         "name": "Tailwind",
         "alt": "tailwind logo"
       }
@@ -83,6 +83,59 @@
         "company": "SoliduSystems",
         "date": "Ene 2019 - Dic 2019",
         "description": "Desarrollo de aplicacacion web con las tecnoloigias laravel, boostrap, vue.js, php y mysql. El proposito principal era crear una aplicacion web para la gestion de inventario."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "👨‍💼 Testimonios",
+    "list-testimonials": [
+      {
+        "name": "✨ Pepe Flores ✨",
+        "img": "images/testimonials/joseflores.webp",
+        "company": "🏢 Wizeline",
+        "message": "Excelente elemento, siempre dispuesto a dar el extra que los proyectos requieren, con una actitud positiva y proactiva. Ademas de ser un excelente compañero de equipo y preparado tecnicamente para cualquier desarrollo.",
+        "red_socials": [
+          {
+            "icon": "fa-linkedin",
+            "url": "https://www.linkedin.com/in/pepeflores97/"
+          }
+        ]
+      },
+      {
+        "name": "✨ Marilú Romero ✨",
+        "img": "images/testimonials/mariluromero.webp",
+        "company": "🏢 Derevo S.A de C.V",
+        "message": "Excelente amigo y compañero de trabajo.",
+        "red_socials": [
+          {
+            "icon": "fa-linkedin",
+            "url": "https://www.linkedin.com/in/maril%C3%BA-romero-24113119b/"
+          }
+        ]
+      },
+      {
+        "name": "✨ Jesús Alberto Nava Ramírez ✨",
+        "img": "images/testimonials/jesusnava.webp",
+        "company": "🏢 Lumston",
+        "message": "Manu es un gran compañero de trabajo, El toma los retos y los covierte en realidad. Nunca para de aprender. Siempre tiene iniciativa para cumplir los objetivos.",
+        "red_socials": [
+          {
+            "icon": "fa-linkedin",
+            "url": "https://www.linkedin.com/in/jesus-alberto-nava-ramirez-4a1079121"
+          }
+        ]
+      },
+      {
+        "name": "✨ Rene Meza ✨",
+        "img": "images/testimonials/renemeza.webp",
+        "company": "🏢 Lumston",
+        "message": "He trabajado durante años con Jesus Liendo en Lumston, y puedo decir con certeza que es un profesional. Su dedicación es evidente en cada etapa del trabajo, y su atención al detalle es simplemente impresionante. La comunicación con él fue siempre fácil y efectiva. Es un profesional que se preocupa por la satisfacción del cliente, y no dudaría en volver a colaborar con él en el futuro.",
+        "red_socials": [
+          {
+            "icon": "fa-linkedin",
+            "url": "https://www.linkedin.com/in/rene-alberto-meza-escamilla/"
+          }
+        ]
       }
     ]
   },
