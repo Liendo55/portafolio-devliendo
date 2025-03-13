@@ -1,18 +1,18 @@
 :root {
-  --text-color: #1a1c20;
-  --link-color: #4a76ee;
-  --background-color: #eeeff1;
-  --border-color: rgb(152, 152, 152);
-  --btn-color: #0077b5;
-  --btn-color-text: #eeeff1;
-}
-
-[data-theme="dark"] {
   --background-color: #1a1c20;
   --text-color: #eeeff1;
   --link-color: #f31111;
   --border-color: rgb(255, 255, 255);
   --btn-color: #46a758;
+  --btn-color-text: #eeeff1;
+}
+
+[data-theme="light"] {
+  --background-color: #eeeff1;
+  --text-color: #1a1c20;
+  --link-color: #4a76ee;
+  --border-color: rgb(152, 152, 152);
+  --btn-color: #0077b5;
   --btn-color-text: #eeeff1;
 }
 
@@ -33,8 +33,16 @@ body {
   margin: 0 auto;
 }
 
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgb(174, 173, 172);
+}
+
 @media (max-width: 850px) {
-  /* SECTION 1: Hero */
   .hero-section .text h2 {
     font-size: 35px;
   }
@@ -124,6 +132,10 @@ body {
 
   .timeline-item::before {
     left: 5px;
+  }
+
+  .testimony-section .carousel-container .carousel .card {
+    flex: 0 0 calc(100% / 1 - 20px) !important;
   }
 
   /* SECTION Footer */
