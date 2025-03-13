@@ -25,13 +25,13 @@ import translateEn from '../../../../public/i18n/en.json';
 export default class NavBarComponent {
   language: string = 'es';
   isEnglish: boolean = false;
-  isDarkTheme: boolean;
+  isLightTheme: boolean;
 
   themeSelected = inject(ThemeService);
   translateLanguage = inject(TranslateService);
 
   constructor() {
-    this.isDarkTheme = this.themeSelected.getCurrentTheme() === 'dark';
+    this.isLightTheme = this.themeSelected.getCurrentTheme() === 'light';
     this.translateLanguage.setTranslation('en', translateEn);
     this.translateLanguage.setTranslation('es', translateEs);
     this.translateLanguage.setDefaultLang('es');
@@ -44,7 +44,7 @@ export default class NavBarComponent {
   }
 
   changeTheme(): void {
-    this.isDarkTheme = !this.isDarkTheme;
-    this.themeSelected.setDarkTheme(this.isDarkTheme);
+    this.isLightTheme = !this.isLightTheme;
+    this.themeSelected.setDarkTheme(this.isLightTheme);
   }
 }

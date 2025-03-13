@@ -6,12 +6,12 @@ import { Injectable } from '@angular/core';
 export class ThemeService {
   constructor() {}
 
-  setDarkTheme(isDark: boolean): void {
-    document.documentElement.setAttribute('data-theme', isDark ? 'dark' : '');
-    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+  setDarkTheme(isLight: boolean): void {
+    document.documentElement.setAttribute('data-theme', isLight ? 'light' : '');
+    localStorage.setItem('theme', isLight ? 'light' : 'dark');
   }
 
   getCurrentTheme(): string {
-    return localStorage.getItem('theme') || 'light';
+    return localStorage.getItem('theme') || 'dark';
   }
 }
